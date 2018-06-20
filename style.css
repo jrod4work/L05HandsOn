@@ -3,6 +3,7 @@
     background-color: #1e5815cf;
     display: flex;
     justify-content: center;
+    background-image:
   }
   
   .header {
@@ -10,4 +11,5 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center; 
+}
