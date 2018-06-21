@@ -1,15 +1,50 @@
+html {
+  background-image: url(images/background.jpg);
+}
 .header-container {
-    color: black;
-    background-color: #1e5815cf;
-    display: flex;
-    justify-content: center;
-    background-image:
-  }
+  display: flex;
+  justify-content: center;  
+  color: white;
+  background-color: #1e5815cf;
+  font-size:39px;
+}
   
+
+  
+  .subscribe {
+    padding-left: 86px;
+  }
+  .login {
+    padding-right: 102px;
+  }
   .header {
     width: 900px;
     height: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top:47px;
+}
+
+
+.first {
+  order:1;
+  margin-top:20px;
+}
+.grid {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-grid-item {
+  width: 235px;
+  height: 250px;
 }
